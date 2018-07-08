@@ -2,36 +2,61 @@
 
 html {
     background-color: #EDECEA;
+
     height: 98%;
 }
 /* roboto, mono */
 /* #000E1C */
 /* #00203F */
 /* #0F1B26 */
+body, a {
+    color: #2c4052;
+}
 
 body {
     margin: 1% 1% 1% 1%;
     height: 98%;
-    border: 7px solid #0F1B26;
-    box-sizing: border-box;
+    border: 7px solid #2e3842;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
-h1 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 56px;
-    color: #0F1B26;
-}
-h2 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 25   px;
-    font-weight: 200;
-    padding-left: 20px;
-    color: #0F1B26;
+.title-landing {
+    font-size: 64px;
 }
 
-h3 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 18px;
+
+.subtitle-landing {
+    font-size: 20px;
     font-weight: 200;
-    color: #0F1B26;
+    margin-top: 5px;
 }
+.social-medias {
+    font-size: 17px;
+    font-weight: 200;
+    margin: 10px 30px;
+}
+
+.social-medias > a {
+    display: block;
+}
+
+.social-medias > a.github:hover {
+    font-weight: bold;
+    color: #333;
+}
+
+.social-medias > a.codepen:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.social-medias > a.linkedin:hover {
+    font-weight: bold;
+    color: #0077B5;
+}
+
+.social-medias > a.pinterest:hover {
+    font-weight: bold;
+     color: #BD081C;
+}
+
