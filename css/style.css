@@ -16,7 +16,8 @@ body, a {
 body {
     margin: 1% 1% 1% 1%;
     height: 98%;
-    border: 7px solid #2e3842;
+    border: 7px solid;
+    border-color: #2e3842;
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -42,21 +43,29 @@ body {
 
 .social-medias > a.github:hover {
     font-weight: bold;
-    color: #333;
+    /* color: #333; */
+    color: #EDECEA;
+    background-color: #333;
 }
 
 .social-medias > a.codepen:hover {
     font-weight: bold;
-    color: black;
+    /* color: black; */
+    color: #EDECEA;
+    background-color: black;
 }
 
 .social-medias > a.linkedin:hover {
     font-weight: bold;
-    color: #0077B5;
+    /* color: #0077B5; */
+    color: #EDECEA;
+    background-color: #0077B5;
 }
 
 .social-medias > a.pinterest:hover {
     font-weight: bold;
-     color: #BD081C;
+     /* color: #BD081C; */
+     color: #EDECEA;
+     background-color: #BD081C;
 }
 
