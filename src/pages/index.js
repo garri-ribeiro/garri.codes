@@ -4,7 +4,7 @@ import reset from 'styled-reset-advanced';
 import Theme from '../config/Theme';
 import Layout from "../components/layout/Layout"
 import Home from "../components/home/Home"
-import { Fragment } from "react";
+import SEO from "../components/seo"
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -26,6 +26,7 @@ const IndexPage = () => (
   <Theme>
     <GlobalStyle />
     <Layout>
+      <SEO />
       <Home></Home>
     </Layout>
   </Theme >
