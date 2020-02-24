@@ -1,4 +1,19 @@
 @font-face {
-    font-family: "LeagueSpartan";
-    src: url("LeagueSpartan-Bold.otf");
+    font-family: "Inconsolata";
+    src: url("Inconsolata-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Jaapokki";
+    src: url("Jaapokki-Regular.otf");
+} 
+
+@font-face {
+    font-family: "Ikaros";
+    src: url("Ikaros-Regular.otf");
+}  
+
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("SFProDisplay-Regular.ttf");
+}  

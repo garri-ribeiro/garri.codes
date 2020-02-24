@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
-       display: grid;
+    height: 100%;
+    display: grid;
     grid-template-areas:
         "header content"
         "footer content";
     grid-template-columns: 50vw 50vw;
     grid-template-rows: 1fr; 
+    align-items: center;
 
     &:before {
         background-attachment: fixed;
@@ -24,11 +26,4 @@ export const Wrapper = styled.section`
         width: 50vw;
         z-index: -1;
     }
-`
-
-export const Intro = styled.section`
-    display: grid;
-    grid-template-areas: "header content" "footer content";
-    grid-template-columns: 50vw 50vw;
-    grid-template-rows: 1fr;
 `

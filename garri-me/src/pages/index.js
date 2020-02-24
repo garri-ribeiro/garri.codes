@@ -1,12 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset-advanced';
 import Theme from '../config/Theme';
 import Layout from "../components/layout/Layout"
 import Home from "../components/home/Home"
-import Image from "../components/image"
-import SEO from "../components/seo"
 import { Fragment } from "react";
 
 const GlobalStyle = createGlobalStyle`
@@ -17,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
 
   div[role="group"][tabindex] {
     height: 100%;
+}
+
+body {
+  background-color: ${props => props.theme.colors.coconoutMilk};
 }
   /* other styles */
 `;

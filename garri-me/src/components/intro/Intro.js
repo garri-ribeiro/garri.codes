@@ -1,9 +1,10 @@
 import React from 'react'
-import { Wrapper, H1 } from './style'
+import { Wrapper, Title, Subtitle } from './style'
 const Intro = () => {
     return (
         <Wrapper>
-           <H1>DHIDIHFSIOHFISO</H1>
+           <Title>Hi, I'm Garri.</Title>
+           <Subtitle>Software Engineer at QuintoAndar</Subtitle>
         </Wrapper>
     )
 }

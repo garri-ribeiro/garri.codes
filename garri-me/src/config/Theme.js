@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 const theme = {
   colors: {
     classicBlue: "#0F4C81",
+    coconoutMilk: "#f0ebe2",
   },
   fonts: ["sans-serif", "Roboto"],
   fontSizes: {
