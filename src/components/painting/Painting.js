@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../image'
-import { Wrapper } from './style'
+import {Wrapper} from './style'
 
 const Painting = () => {
     return (

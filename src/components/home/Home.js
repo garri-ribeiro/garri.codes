@@ -1,7 +1,10 @@
 import React from 'react'
-import { Wrapper } from './style';
-import  Intro from "../intro/Intro";
+
+import Intro from "../intro/Intro";
 import Painting from '../painting/Painting';
+
+import {Wrapper} from './style';
+
 const Home = () => {
     return (
         <Wrapper>
