@@ -1,10 +1,11 @@
 import React from 'react'
-
+import { Wrapper } from './style';
+import  Intro from "../intro/Intro";
 const Home = () => {
     return (
-        <div>
-            Hello world!
-        </div>
+        <Wrapper>
+            <Intro/>
+        </Wrapper>
     )
 }
 
