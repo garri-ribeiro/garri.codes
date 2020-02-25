@@ -5,6 +5,7 @@ const theme = {
   colors: {
     classicBlue: "#0F4C81",
     coconoutMilk: "#f0ebe2",
+    brightWhite: "#F4F5F0",
   },
   fonts: ["sans-serif", "Roboto"],
   fontSizes: {
