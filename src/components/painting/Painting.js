@@ -5,7 +5,7 @@ import { Wrapper } from "./style"
 const Painting = () => {
   return (
     <Wrapper>
-      <Image />
+      {/* <Image /> */}
     </Wrapper>
   )
 }
