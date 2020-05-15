@@ -2,4 +2,8 @@
 # Minimal config. version is the only required field.
 version = 1
 
-# hello kodiak
+merge.automerge_label = "deploy-this-PR"
+merge.blacklist_labels = ["wip", "in_review"]
+merge.method = "squash"
+merge.optimistic_updates = false
+merge.message.include_pull_request_author = true
