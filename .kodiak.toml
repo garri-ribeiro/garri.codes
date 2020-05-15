@@ -7,3 +7,5 @@ merge.blacklist_labels = ["wip", "in_review"]
 merge.method = "squash"
 merge.optimistic_updates = false
 merge.message.include_pull_request_author = true
+
+# ola mundo
