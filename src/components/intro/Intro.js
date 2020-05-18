@@ -4,7 +4,7 @@ const Intro = () => {
     return (
         <Wrapper>
             <Box>
-                <Title>Hello, I'm Garri.</Title>
+                <Title>Hello, sI'm Garri.</Title>
                 <Subtitle>Software Engineer @QuintoAndar</Subtitle>
             </Box>
         </Wrapper>
