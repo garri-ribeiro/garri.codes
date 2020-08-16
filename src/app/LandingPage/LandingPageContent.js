@@ -1,19 +1,30 @@
 import React from 'react'
+import styled from 'styled-components'
+
 
 import {
     Content,
     Heading,
 } from '@adobe/react-spectrum';
 
+const Title = styled.h1`
+    font-size: 7em;
+`;
+
+const SubTitle = styled.h1 `
+    font-size: 3em;
+`;
+
+
 export const LandingPageContent = () => {
     return (
         <Content>
-            <Heading level={1}>
+            <Title level={1}>
                 Hello there, I'm Garri!
-            </Heading>
-            <Heading level={2}>
+            </Title>
+            <SubTitle level={2}>
                 >_ Software Enginner @QuintoAndar
-            </Heading>
+            </SubTitle>
         </Content>
     )
 }
