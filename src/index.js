@@ -1,15 +1,17 @@
 import React from "react";
 import { render } from "react-dom";
+import 'normalize.css';
 
 import {
     Provider,
-    defaultTheme,
-    Button
+    defaultTheme
 } from '@adobe/react-spectrum';
+
+import LandingPage from './app/LandingPage';
 
 const App = () =>  (
     <Provider theme={defaultTheme} colorScheme="light">
-        Eu ia lhe chamar, enquanto corria a barca.
+        <LandingPage />
     </Provider>
 );
 
