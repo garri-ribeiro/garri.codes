@@ -1,0 +1,1 @@
+export const QUINTOANDAR_CARRER_URL = 'https://carreiras.quintoandar.com.br/';
