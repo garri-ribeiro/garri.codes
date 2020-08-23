@@ -4,8 +4,8 @@ import {
     View
 } from '@adobe/react-spectrum';
 
-import {LandingPageHeader as Header} from './LandingPageHeader'
-import {LandingPageContent as Content} from './LandingPageContent';
+import {LandingPageHeader as Header} from './Components/LandingPageHeader'
+import {LandingPageContent as Content} from './Components/LandingPageContent';
 
 const LandingPage = () => {
     return (
