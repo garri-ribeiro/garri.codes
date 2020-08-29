@@ -3,11 +3,27 @@ import styled from 'styled-components'
 export const Title = styled.h1`
     font-size: 8em;
     margin: 0;
+
+    @media(max-width: 1400px) {
+        font-size: 6em;
+    }
+
+    @media(max-width: 700px) {
+        font-size: 4em;
+    }
 `;
 
 export const SubTitle = styled.h1`
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
+
+    @media(max-width: 1400px) {
+        font-size: 1.8em;
+    }
+
+    @media(max-width: 700px) {
+        font-size: 1.2em;
+    }
 `;
 
 export const CompanyLink = styled.a`
